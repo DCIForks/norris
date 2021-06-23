@@ -2,7 +2,11 @@
 
 The task is to create a simple client for Auth0's [Authentication Sample](https://github.com/auth0-blog/nodejs-jwt-authentication-sample) backend.
 
-First clone the [Authentication Sample](https://github.com/auth0-blog/nodejs-jwt-authentication-sample) repo and launch it using `node server.js` or `nodemon server.js`. You can use Postman to connect to the `/users` and `/api/protected/random-quote` routes. When your requests are working correctly in Postman, you can use the automatically generated code as inspiration for your own JavaScript implementation.
+First clone the [Authentication Sample](https://github.com/auth0-blog/nodejs-jwt-authentication-sample) repo and launch it using `node server.js` or `nodemon server.js`.
+
+> Make sure that the directory for the Authentication Sample is _not_ a child directory of the current assignment. They can both be inside the same parent directory. Both directories contain hidden `.git` directories, which tracks all the changes made to all files and directories placed at the same level. It can be very confusing (to you, and to `git`) if one `.git` directory is tracking the changes of another `.git` directory.
+
+You can use Postman to connect to the `/users` and `/api/protected/random-quote` routes. When your requests are working correctly in Postman, you can use the automatically generated code as inspiration for your own JavaScript implementation.
 
 ## Your mission:
 
@@ -18,4 +22,4 @@ Write the JavaScript that will:
 Bonus:
 7. Hide and Show the password when the appropriate button is clicked. To do this, you simply need to toggle the `type` of the `<input>` element for the password between `"password"` and `"text"`.
 
-Remember that you can use Postman to send the appropriate POST and GET requests, and that you can use the `Code` or `</>` button to the right of your request, to discover a snippet written in JavaScript that you can modify to suit your project.
+Remember that you can use Postman to send the appropriate POST and GET requests, and that you can use the `Code` or `</>` button to the right of your request in Postman, to discover a snippet written in JavaScript that you can modify to suit your project.
