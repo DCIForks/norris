@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chuck Norris Client</title>
+  </head>
+  
+  <body>
+    <form action="">
+      <fieldset>
+        <legend>Create New User</legend>
+        <div>
+          <label for="username">
+            Username:
+            <input type="text" name="username" id="username" />
+          </label>
+        </div>
+        <label for="password">
+          Password:
+          <input type="password" name="password" id="password" />
+        </label>
+
+        <input type="button" value="Show" id="toggle-password" />
+        <div>
+          <input type="button" value="Create New User" id="submit" />
+        </div>
+      </fieldset>
+    </form>
+
+    <button id="get-joke" disabled>Get Chuck Norris Joke</button>
+    <p id="show-joke"></p>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
